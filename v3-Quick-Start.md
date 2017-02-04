@@ -22,7 +22,7 @@ Updated: 4 Feb 2017
 * RocketMap webhooks have been recently undergoing changes.  You may see errors related to `[MainProcess][Structures][ERROR] Invalid type specified (scheduler). Are you using the correct map type?` - your PokeAlarm setup will still function normally
 
 ## Introduction
-PokeAlarm v3 takes advantage of multiprocessing to simplify running multiple configurations. To further simplify configuration, the `alarms.txt` as you know it in v2 has been split into `alarms.json` and `filters.json`.  Geofencing is still handled by `geofence.txt`, which now allows for multiple geofences in the same file.  You can add multiple config files in a list in `config.ini`.
+PokeAlarm v3 takes advantage of multiprocessing to simplify running multiple configurations. To further simplify configuration, the `alarms.json` as you know it in v2 has been split into `alarms.json` and `filters.json`.  Geofencing is still handled by `geofence.txt`, which now allows for multiple geofences in the same file.  You can add multiple config files in a list in `config.ini`.
 
 Here's a visual on the PokeAlarm v3 workflow:
 
