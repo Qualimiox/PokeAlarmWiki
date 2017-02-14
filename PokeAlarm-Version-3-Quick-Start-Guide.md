@@ -129,7 +129,7 @@ If RocketMap is not configured to send moves or IVs for particular pokemon, e.g.
 
 To bypass, use `"ignore_missing":"True"` in your `filters.json` either globally or individually for each Pokemon.
 
-`"Pidgey": { "ignore_missing:"True" }`
+`"Pidgey": { "ignore_missing":"True" }`
 
 It is highly recommended to disable this option for the rares - snorax, dragonite, lapras - since you'll want to be notified of those, regardless of stats.
 
